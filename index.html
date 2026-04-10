@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAKIMI ZIYACH | WEB DESIGNER , VIDEO EDITOR and WORKER MAN for DOLLAR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Space Grotesk', 'sans-serif'] },
+                    colors: { 
+                        brand: '#6366f1', 
+                        surface: '#0f172a',
+                        accent: '#2dd4bf'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #020617; color: #f8fafc; overflow-x: hidden; }
+        
+        /* Interactive Background */
+        .aura {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(99, 102, 241, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(45, 212, 191, 0.15) 0%, transparent 40%);
+            z-index: -1;
+        }
+
+        .glass-card {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(99, 102, 241, 0.5);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #818cf8 0%, #2dd4bf 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-link::after {
+            content: ''; display: block; width: 0; height: 2px;
+            background: #6366f1; transition: width 0.3s;
+        }
+        .nav-link:hover::after { width: 100%; }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="aura"></div>
+
+    <nav class="fixed w-full z-50 top-0 px-6 py-6">
+        <div class="max-w-7xl mx-auto flex justify-between items-center glass-card rounded-2xl px-8 py-4">
+            <div class="text-2xl font-bold tracking-tighter">
+                <span class="text-brand">HAKIMI</span> ZIYACH<span class="text-accent italic">.</span>
+            </div>
+            <div class="hidden md:flex gap-10 text-sm font-medium">
+                <a href="#about" class="nav-link text-slate-400 hover:text-white transition">STORY</a>
+                <a href="#projects" class="nav-link text-slate-400 hover:text-white transition">ECOSYSTEMS</a>
+                <a href="#skills" class="nav-link text-slate-400 hover:text-white transition">STACK</a>
+            </div>
+            <a href="#contact" class="bg-brand hover:bg-indigo-700 px-6 py-2.5 rounded-xl text-sm font-bold transition shadow-lg shadow-indigo-500/20">
+                START PROJECT
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center justify-center px-6">
+        <div class="max-w-5xl text-center">
+            <div class="mb-6 flex justify-center">
+                <span class="bg-slate-800/50 border border-slate-700 px-4 py-1.5 rounded-full text-[10px] font-black tracking-[0.3em] uppercase text-accent">
+                    Engineering Tomorrow
+                </span>
+            </div>
+            <h1 class="text-6xl md:text-8xl font-black mb-8 tracking-tighter leading-[0.9]">
+                Architecting <br> <span class="gradient-text">Scalable Solutions.</span>
+            </h1>
+            <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
+                Hi, I'm <span class="text-white font-bold underline decoration-brand underline-offset-4">HAKIMI ZIYACH</span>. 
+                WEB DESIGNER and VIDEO EDITOR specializing in high-concurrency systems and aesthetic user interfaces.
+            </p>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="#projects" class="group bg-white text-slate-950 px-10 py-4 rounded-2xl font-black transition-all hover:scale-105 flex items-center gap-3">
+                    EXPLORE WORK <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="https://github.com/HakimiZiyach" class="glass-card px-10 py-4 rounded-2xl font-black hover:bg-white/5 transition flex items-center gap-3">
+                    <i class="fab fa-github"></i> REPOSITORIES
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-32 px-6 max-w-7xl mx-auto">
+        <h2 class="text-sm font-black tracking-[0.5em] text-slate-500 uppercase mb-12 text-center">Featured Systems</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+            <div class="md:col-span-8 glass-card p-10 rounded-[3rem] group">
+                <div class="flex justify-between items-start mb-12">
+                    <div class="w-16 h-16 bg-brand/10 rounded-2xl flex items-center justify-center text-brand text-3xl">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <span class="text-xs font-bold text-slate-500">JAVA • ERP • SWING</span>
+                </div>
+                <h3 class="text-4xl font-bold mb-4">MediChain Enterprise</h3>
+                <p class="text-slate-400 text-lg mb-8 max-w-md">
+                    A multi-stakeholder Hospital Management System designed for efficiency. Integrated data synchronization across Pharmacy, Doctors, and Billing modules.
+                </p>
+                <div class="flex gap-4">
+                    <div class="px-4 py-2 bg-slate-800/50 rounded-lg text-xs font-bold uppercase tracking-wider">Live System</div>
+                    <div class="px-4 py-2 bg-slate-800/50 rounded-lg text-xs font-bold uppercase tracking-wider">Functional Logic</div>
+                </div>
+            </div>
+
+            <div class="md:col-span-4 glass-card p-10 rounded-[3rem] bg-gradient-to-br from-slate-900 to-indigo-950/30">
+                <div class="text-accent text-4xl mb-12">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 italic">Ziyach HQ</h3>
+                <p class="text-slate-400 text-sm mb-8 leading-relaxed">
+                    Premium e-commerce architecture with a focus on visual storytelling and performance.
+                </p>
+                <span class="text-xs font-black tracking-widest text-accent uppercase">View Case Study</span>
+            </div>
+
+            <div class="md:col-span-4 glass-card p-8 rounded-[2.5rem] flex flex-col justify-center text-center">
+                <h4 class="text-5xl font-black gradient-text mb-2">3+</h4>
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-widest">Years of Engineering</p>
+            </div>
+            <div class="md:col-span-4 glass-card p-8 rounded-[2.5rem] flex flex-col justify-center text-center">
+                <h4 class="text-5xl font-black gradient-text mb-2">10+</h4>
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-widest">Successful Projects</p>
+            </div>
+            <div class="md:col-span-4 glass-card p-8 rounded-[2.5rem] flex flex-col justify-center text-center">
+                <h4 class="text-5xl font-black gradient-text mb-2">∞</h4>
+                <p class="text-slate-500 text-xs font-bold uppercase tracking-widest">Clean Code Focus</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-32 px-6">
+        <div class="max-w-4xl mx-auto glass-card p-12 rounded-[4rem] border-brand/20">
+            <h3 class="text-3xl font-bold mb-12 text-center tracking-tight">The Technical <span class="text-brand italic">Stack</span></h3>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="flex items-center gap-3 bg-slate-800/40 px-6 py-3 rounded-2xl border border-white/5">
+                    <i class="fab fa-java text-orange-400"></i> <span class="font-bold">JAVA</span>
+                </div>
+                <div class="flex items-center gap-3 bg-slate-800/40 px-6 py-3 rounded-2xl border border-white/5">
+                    <i class="fab fa-python text-blue-400"></i> <span class="font-bold">PYTHON</span>
+                </div>
+                <div class="flex items-center gap-3 bg-slate-800/40 px-6 py-3 rounded-2xl border border-white/5">
+                    <i class="fab fa-js text-yellow-400"></i> <span class="font-bold">JS ES6</span>
+                </div>
+                <div class="flex items-center gap-3 bg-slate-800/40 px-6 py-3 rounded-2xl border border-white/5">
+                    <i class="fas fa-leaf text-green-400"></i> <span class="font-bold">SPRING BOOT</span>
+                </div>
+                <div class="flex items-center gap-3 bg-slate-800/40 px-6 py-3 rounded-2xl border border-white/5">
+                    <i class="fab fa-css3-alt text-indigo-400"></i> <span class="font-bold">TAILWIND</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-20 px-6 text-center">
+        <div class="max-w-xl mx-auto">
+            <h2 class="text-4xl font-bold mb-6">Let's create the next <br><span class="gradient-text italic">big thing.</span></h2>
+            <p class="text-slate-500 mb-10 font-medium">Currently open for specialized collaborations and engineering roles.</p>
+            <div class="flex justify-center gap-8 text-2xl mb-16">
+                <a href="#" class="text-slate-600 hover:text-white transition"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-slate-600 hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-slate-600 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="pt-8 border-t border-slate-900">
+                <p class="text-[10px] font-black tracking-[0.5em] text-slate-700 uppercase">
+                    Designed & Engineered by HAKIMI ZIYACH © 2026
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
