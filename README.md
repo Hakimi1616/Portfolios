@@ -5,7 +5,7 @@
   
 
 👨‍💻 About Me
-I am Elnatan Wuletaw, widely known as GHOST IN THE MACHINE. I am a FAM. of 3rd-year Software Engineering student with a passion for architecting scalable digital ecosystems and high-performance applications.
+I am Elnatan Wuletaw, widely known as GHOST IN THE MACHINE. I am a FAM. of 4th-year Software Engineering student with a passion for architecting scalable digital ecosystems and high-performance applications.
 
 My approach combines technical rigor with aesthetic precision, ensuring that every system I build is not only functional but also provides a world-class user experience.
 
@@ -28,14 +28,15 @@ Tech: Java, OOP Principles, Data Sync Logic.
 💻 HAKIMI Hardware Office A premium E-commerce interface built for high-end tech components.
 
 Key Feature: Modern "Glassmorphism" UI and responsive Bento-grid layout.
-Tech: HTML5, Tailwind CSS, JavaScript ES6.
+Tech: HTML5, Tailwind CSS, JavaScript ES6,React,Node.JS
 📈 Developer Stats
-Ziyach Stats
+Elnatan Stats
 
 🤝 Contact With Me
 If you're looking for a high-quality software architect for collaboration or hire, let's talk.
 
 🤝 Contact With Me
+                +251 969216419
 
     
 
