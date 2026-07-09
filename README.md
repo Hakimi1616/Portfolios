@@ -9,11 +9,11 @@ I am Elnatan Wuletaw, widely known as GHOST IN THE MACHINE. I am a FAM. of 4th-y
 
 My approach combines technical rigor with aesthetic precision, ensuring that every system I build is not only functional but also provides a world-class user experience.
 
-🔭 Live Portfolio: Visit My Site
-⚡ MY MINDSET:** "INVISIBLE but ALWAYS INSIDE THE SYSTEM any way FEAR IS JUST A SYSTEM ERROR."
+🔭 Live Portfolio: Visit My Portfolio
+ MY MINDSET:** "INVISIBLE but ALWAYS INSIDE THE SYSTEM any way FEAR IS JUST A SYSTEM ERROR."
 🌍 Goal: To solve complex real-world problems but you won't just you will feel the system change okay.
 🛠 Technical Stack
-🚀 Languages & Core
+ Languages & Core
 Java Python JavaScript
 
 🏗 Frameworks & Tools
@@ -25,7 +25,7 @@ A robust Hospital Management System built with Java GUI (Swing). It integrates m
 
 Key Feature: Real-time room booking and automated medical billing.
 Tech: Java, OOP Principles, Data Sync Logic.
-💻 HAKIMI Hardware Office A premium E-commerce interface built for high-end tech components.
+💻 Elnatan Hardware Office A premium E-commerce interface built for high-end tech components.
 
 Key Feature: Modern "Glassmorphism" UI and responsive Bento-grid layout.
 Tech: HTML5, Tailwind CSS, JavaScript ES6,React,Node.JS
